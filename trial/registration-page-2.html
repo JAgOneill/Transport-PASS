@@ -1,0 +1,138 @@
+<!--
+    Code Art Solutions
+    Project Name: Computerized-Dairy
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <script src="jquery/jquery-3.3.1.js"> </script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="bootstrap/w3.css/w3.css"></link>
+        <script src="bootstrap/fonts/glyphicons-halflings-regular.ttf"></script>
+        <title>PMT Pass | Passenger Registration</title>
+        <style>
+            .well {
+                font-size: 24px;
+                background-color: white;
+            }
+            .jumbotron{
+                background: url();
+                background-size: 100% 100%;
+            }
+            
+            <!-- This is used for date-picker -->
+            [type="date"] {
+              background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;
+            }
+            [type="date"]::-webkit-inner-spin-button {
+              display: none;
+            }
+            [type="date"]::-webkit-calendar-picker-indicator {
+              opacity: 0;
+            }
+
+            /* custom styles */
+            label {
+              display: block;
+            }
+            input {
+              border: 1px solid #c4c4c4;
+              border-radius: 5px;
+              background-color: #fff;
+              padding: 3px 5px;
+              box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
+              width: 190px;
+            }
+            <!-- Date-picker -->
+        </style>        
+        
+        <!--Start: Script -->
+        <script src="scripts/register-validations.js"> </script>
+        <script src="scripts/clear-register-text.js"> </script>
+        <!--End: Script -->
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="jumbotron" style="background-color:#DCDCDC;font:glyph">
+
+                <div class="row">
+                    
+                    <div class="col-md-12">                
+                        <div class="panel-group">
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">Dairy Information</div>
+                                <div class="panel-body">
+                                    <form action="jsp-pages/store-register-details.jsp">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                Passenger Name:
+                                            </div>
+                                            <div class="col-md-9">
+                                                <input name="passenger-name" id="passenger-name" class="form-control" onchange="validateSupID()" required>
+                                            </div>
+                                        </div>
+                                        
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                Email-Id:
+                                            </div>
+                                            <div class="col-md-9">
+                                                <input name="emailid" id="emailid" class="form-control" onchange="validateSupID()" required>
+                                            </div>
+                                        </div>
+                                        
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                Contact No:
+                                            </div>
+                                            <div class="col-md-9">
+                                                <input maxlength="10" min="10" name="contact_no" id="contact_no" class="form-control" onchange="contactNoValidation()" required>
+                                            </div>
+                                        </div>
+                                        
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                Password:
+                                            </div>
+                                            <div class="col-md-9">
+                                                <input name="password" id="password" class="form-control" onchange="validateSupID()" required>
+                                            </div>
+                                        </div>
+                                        
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                Confirm Password:
+                                            </div>
+                                            <div class="col-md-9">
+                                                <input name="confirm-password" id="confirm-password" class="form-control" onchange="validateSupID()" required>
+                                            </div>
+                                        </div>
+                                        
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <button type="reset" class="btn btn-primary btn-block">Clear</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
