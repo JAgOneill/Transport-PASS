@@ -5,7 +5,7 @@ Means everyone who want <b> PMT</b> bus pass he have to go into the bus depot an
 But in this system we are developing the web based application which is totally user friendly, and using this application no one has to wait in the queue for a long time for the bus pass. There is no need to keep for the manual system for pass because we provide the <b> PMT</b> form pass verification<br><br>
 <b>⦁Software Requirements :-<br>
 ⦁Operating System : Windows,Linux or Further<br>
-⦁Languages: Java , Javascript<br>
+⦁Languages: Java (JDK 1.8) (JRE8), Javascript<br>
 ⦁Front End : Javascript, JSP , HTML5 , CSS <br>
 ⦁Database: My-sql<br>
 ⦁Platform : Java<br>
