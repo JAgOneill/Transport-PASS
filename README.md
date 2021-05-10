@@ -10,7 +10,7 @@ But in this system we are developing the web based application which is totally 
 ⦁Database: My-sql<br>
 ⦁Platform : Java<br>
 ⦁Web Servers: Glassfish Server<br>
-⦁Backend: Java(Core),Advanced Java(JSP - Servlet)</b>
+⦁Backend: Java(Core),Advanced Java(JSP  - Servlet)</b>
 
 <b>Features :-<br>
 1 Customer Login<br>
