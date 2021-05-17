@@ -21,8 +21,8 @@ But in this system we are developing the web based application which is totally 
 
 <b>Feasibility Study</b><br>
 Preliminary investigation examine project feasibility, the likelihood the system will be useful to the organization. The main objective of the feasibility study is to test the Technical, Operational and Economical feasibility for adding new modules and debugging old running system. All system is feasible if they are unlimited resources and infinite time. There are aspects in the feasibility study portion of the preliminary investigation:<br>
-⦁	Technical Feasibility<br>
-⦁	Operation Feasibility<br>
+⦁	Technical Feasibility <br>
+⦁	Operation Feasibility <br>
 ⦁	Economical Feasibility<br>
 
 
